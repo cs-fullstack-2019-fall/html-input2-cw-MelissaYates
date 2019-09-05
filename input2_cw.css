@@ -1,0 +1,17 @@
+#cool{
+    background-color: black;
+    color: white;
+
+}
+#cool:hover{
+    background:red;
+    color: white;
+}
+
+.control label{
+    display:block;
+}
+body{
+    margin-right: 20%;
+    margin-left: 20%;
+}

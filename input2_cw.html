@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="input2_cw.css">
+</head>
+<body>
+<h1>User Registration Form</h1>
+<div>
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+            <div class = "control">
+                <label for="email">Email: </label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class = "control">
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" required>
+            </div>
+            <div class = "control">
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" required>
+            </div>
+
+            <div class = "control">
+            <label for="pword">Password: </label>
+            <input type="password" id="pword">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Optional Information</legend>
+            <label for="msex">Male</label>
+            <input type="radio" id="msex" name="gender"checked>
+
+            <label for="fsex">Female</label>
+            <input type="radio" id="fsex" name="gender">
+
+            <label for="other">Prefer not to say</label>
+            <input type="radio" id="other" name="gender" required>
+
+            <label for="birthday">Birthday: </label>
+            <input type = "date" id="birthday" required >
+        </fieldset>
+        <input type="checkbox" id="box">
+        <label for="box">I agree to the terms and conditions</label>
+    </form>
+
+
+
+    <button id ="cool">Submit Registration</button>
+
+</div>
+
+
+</body>
+</html>
